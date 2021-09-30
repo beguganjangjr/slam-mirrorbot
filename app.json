@@ -1,0 +1,40 @@
+{
+    "name": "slam",
+    "description": "slam mirror bot",
+    "keywords": [
+      "telegram",
+      "pyrogram",
+      "torrent",
+      "3",
+      "mirror-bot"
+    ],
+    "website": "https://github.com/beguganjangjr",
+    "repository": "https://github.com/beguganjangjr",
+    "env": {
+      "TELEGRAM_API": {
+        "description": "get this value from https://my.telegram.org",
+        "value": ""
+      },
+      "TELEGRAM_HASH": {
+        "description": "get this value from https://my.telegram.org",
+        "value": ""
+      },
+      "BOT_TOKEN": {
+        "description": "get this value from @BotFather",
+        "value": ""
+      },
+      "OWNER_ID": {
+        "description": "enter pasword or leave it public",
+        "value": "",
+        "required" : false
+      }
+    },
+    "stack": "container",
+    "formation": {
+      "web": {
+        "quantity": 1,
+        "size": "free"
+      }
+    }
+  }
+  
